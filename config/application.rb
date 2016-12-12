@@ -163,7 +163,7 @@ puts page.f
  page.j = page.j + (energiamedidor*tarifa.to_i)
  puts page.j
  #k = emision co2 
- page.k = page.d + (energiamedidor*sic)
+ page.k = page.k + (energiamedidor*sic)
  puts page.k
  #l = arboles talado 
  page.l = page.l + (energiamedidor*sic/0.02177)	
